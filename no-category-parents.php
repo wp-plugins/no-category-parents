@@ -2,7 +2,7 @@
 /*
 Plugin Name: No category parents
 Description: Removes category parents from your category permalinks.
-Version: 0.7
+Version: 0.1
 Author: Sergio Milardovich
 Author URI: Author URI: http://milardovich.com.ar/
 */
