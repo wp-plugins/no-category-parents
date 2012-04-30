@@ -20,6 +20,9 @@ This plugin will completely remove the mandatory 'Category Base' and all the par
 
 == Changelog ==
 
+= 0.2.1 =
+* Minor changes in the comments.
+
 = 0.2 =
 * The plugin now works with the permastruct /%category%/ and also replaces the post permalinks.
 * Other minor fixes.
