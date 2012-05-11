@@ -20,6 +20,9 @@ This plugin will completely remove the mandatory 'Category Base' and all the par
 
 == Changelog ==
 
+= 0.2.2 =
+* In 0.2.1 when the "Category Base" field wasn't empty the plugin didn't work. Now the "Category Base" field will automatically be empty when you activate the plugin.
+
 = 0.2.1 =
 * Minor changes in the comments.
 

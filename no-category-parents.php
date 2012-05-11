@@ -2,7 +2,7 @@
 /*
 Plugin Name: No Category Parents
 Description: Removes category parents from your category permalinks. Now it also works for the posts permalinks, when using the /%category%/ permastruct.
-Version: 0.2.1
+Version: 0.2.2
 Author: Sergio Milardovich
 Author URI: Author URI: http://milardovich.com.ar/
 Donate link: http://www.milardovich.com.ar/donate/
@@ -48,6 +48,7 @@ add_action('delete_category','my_flush_rules2');
 
 // flush_rules() if our rules are not yet included
 function my_flush_rules(){
+	update_option('category_base','');
 	$rules = get_option( 'rewrite_rules' );
 
 	//if ( ! isset( $rules['(.+?)-cat/?$'] ) ) { // have to comment this in order to refresh the rules
