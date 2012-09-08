@@ -2,7 +2,7 @@
 Contributors: milardovich
 Tags: categories, category parents, category base, category, permalinks, permastruct, links, seo, cms
 Requires at least: 2.3
-Tested up to: 3.3.2
+Tested up to: 3.4.2
 Stable tag: trunk
 Donate link: http://www.milardovich.com.ar/donate/
 
@@ -16,9 +16,15 @@ This plugin will completely remove the mandatory 'Category Base' and all the par
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. That's it! You sould now be able to access your categories via http://mysite.com/my-category/
 
+See http://www.milardovich.com.ar/no-category-parents/ for troubleshooting.
+
 
 
 == Changelog ==
+
+= 0.2.3 =
+* Changed some links.
+* Fixed "empty category" problem (special thanks to absolutex).
 
 = 0.2.2 =
 * In 0.2.1 when the "Category Base" field wasn't empty the plugin didn't work. Now the "Category Base" field will automatically be empty when you activate the plugin.

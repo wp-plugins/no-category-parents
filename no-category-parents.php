@@ -2,9 +2,9 @@
 /*
 Plugin Name: No Category Parents
 Description: Removes category parents from your category permalinks. Now it also works for the posts permalinks, when using the /%category%/ permastruct.
-Version: 0.2.2
+Version: 0.2.3
 Author: Sergio Milardovich
-Author URI: Author URI: http://milardovich.com.ar/
+Author URI: Author URI: http://www.milardovich.com.ar/no-category-parents/
 Donate link: http://www.milardovich.com.ar/donate/
 */
 
@@ -12,7 +12,7 @@ Donate link: http://www.milardovich.com.ar/donate/
 /*  
     Based on "WP No Category Base" code -> http://wordpresssupplies.com/
 
-    Copyright 2009-2012  Sergio Milardovich  (email : milardovich@wnadesign.com)
+    Copyright 2009-2012  Sergio Milardovich  (email : smilardovich@frro.utn.edu.ar)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -71,7 +71,7 @@ function my_insert_rewrite_rules( $rules )
 	$newrules['(.+?)-cat/?$'] = 'index.php?category_name=$matches[1]';
 	$newrules['(.+?)-cat/page/?([0-9]{1,})/?$'] = 'index.php?category_name=$matches[1]&paged=$matches[2]';
  	
-	$categories = get_categories();
+	$categories = get_categories(array('hide_empty'=>false));
 	
 	
 	if ($categories)
