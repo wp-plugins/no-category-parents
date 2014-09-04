@@ -2,7 +2,7 @@
 Contributors: milardovich
 Tags: categories, category parents, category base, category, permalinks, permastruct, links, seo, cms
 Requires at least: 2.3
-Tested up to: 3.4.2
+Tested up to: 4.0
 Stable tag: trunk
 Donate link: http://www.milardovich.com.ar/donate/
 
