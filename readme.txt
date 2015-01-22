@@ -26,7 +26,7 @@ See http://www.milardovich.com.ar/no-category-parents/ for troubleshooting.
 * Quickfix: fixed pagination bug
 
 = 0.2.4 =
-* Tested up to WP 4.2
+* Tested up to WP 4.1
 * Fixed pagination problem (special thanks to Lukáš Wojnar).
 
 = 0.2.3 =
