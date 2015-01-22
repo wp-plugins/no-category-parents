@@ -2,7 +2,7 @@
 Contributors: milardovich
 Tags: categories, category parents, category base, category, permalinks, permastruct, links, seo, cms
 Requires at least: 2.3
-Tested up to: 4.0
+Tested up to: 4.2
 Stable tag: trunk
 Donate link: http://www.milardovich.com.ar/donate/
 
@@ -21,6 +21,13 @@ See http://www.milardovich.com.ar/no-category-parents/ for troubleshooting.
 
 
 == Changelog ==
+
+= 0.2.4.1 =
+* Quickfix: fixed pagination bug
+
+= 0.2.4 =
+* Tested up to WP 4.2
+* Fixed pagination problem (special thanks to Lukáš Wojnar).
 
 = 0.2.3 =
 * Changed some links.
