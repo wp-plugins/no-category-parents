@@ -4,7 +4,7 @@ Tags: categories, category parents, category base, category, permalinks, permast
 Requires at least: 2.3
 Tested up to: 4.1
 Stable tag: trunk
-Donate link: http://www.milardovich.com.ar/donate/
+Donate link: http://www.milardovich.com.ar/
 
 == Description ==
 
