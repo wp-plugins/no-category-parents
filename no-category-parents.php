@@ -3,9 +3,9 @@
 Plugin Name: No Category Parents
 Description: Removes category parents from your category permalinks. Now it also works for the posts permalinks, when using the /%category%/ permastruct.
 Version: 0.2.4.1
-Author: <a href="http://www.milardovich.com.ar/donate/">Sergio Milardovich</a>
-Author URI: http://www.milardovich.com.ar/no-category-parents/
-Donate link: http://www.milardovich.com.ar/donate/
+Author: Sergio Milardovich
+Author URI: http://www.milardovich.com.ar/
+Donate link: http://www.milardovich.com.ar/
 */
 
 
